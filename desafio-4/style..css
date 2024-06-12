@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+table {
+  color: #fff;
+}
+
+.tabela-moda th {
+  background-color: #bb86fc;
+  padding: 5px;
+}
+
+.tabela-moda td {
+  background-color: #424250;
+  padding: 5px;
+}
+
+.tabela-casa th {
+  background-color: #00c4b4;
+  padding: 5px;
+}
+
+.tabela-casa td {
+  background-color: #424250;
+  padding: 5px;
+}

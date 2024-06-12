@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+.box1 {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 40px;
+}
+
+.box2 {
+  background-color: #f0cce2;
+  padding: 20px;
+  margin: 40px;
+}
