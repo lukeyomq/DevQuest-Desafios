@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.card-profile {
+  background-color: #fff;
+  width: 330px;
+  height: 350px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  gap: 25px;
+}
+hr {
+  width: 100%;
+}
+
+.profile-informations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  gap: 10px;
+}
+
+.profile-informations img {
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.profile-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-bottom: 10px;
+  text-align: center;
+  
+}
+
+.nome-profile,
+.profile-footer p {
+  font-weight: 700;
+}
+
+.age-profile,
+.city-profile {
+  color: hsl(227, 10%, 46%);
+}
+
+.profile-footer .numbers span {
+  color: hsl(227, 10%, 46%);
+}
