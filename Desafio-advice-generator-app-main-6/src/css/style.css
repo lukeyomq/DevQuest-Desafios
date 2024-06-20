@@ -1,0 +1,103 @@
+:root {
+  --cor-text: hsl(193, 38%, 86%);
+  --cor-butao-text: hsl(150, 100%, 66%);
+  --cor-card: hsl(217, 19%, 24%);
+  --cor-bg: hsl(218, 23%, 16%);
+}
+
+body {
+  background-color: var(--cor-bg);
+  color: var(--cor-text);
+  height: 100vh;
+  font-family: 'Manrope', Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.card {
+  background-color: var(--cor-card);
+  width: 440px;
+  height: 250px;
+  border-radius: 15px;
+}
+
+.card-infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.card-infos h3 {
+  color: var(--cor-butao-text);
+  font-size: 0.8em;
+}
+
+.card-infos p {
+  display: flex;
+  width: 80%;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.divider img {
+  width: 90%;
+  align-self: center;
+}
+
+.button {
+  background-color: var(--cor-butao-text);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 20px;
+}
+
+.button img {
+  width: 40%;
+}
+
+.button:hover {
+  cursor: pointer;
+  box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+}
+
+@media (max-width: 440px) {
+  .card {
+    background-color: var(--cor-card);
+    width: 85%;
+    height: 300px;
+    border-radius: 15px;
+  }
+
+  .card-infos h3 {
+    color: var(--cor-butao-text);
+    font-size: 0.8em;
+    margin-top: 10px;
+  }
+
+  .card-infos {
+    gap: 30px;
+  }
+
+  .button {
+    top: 3px;
+  }
+}
