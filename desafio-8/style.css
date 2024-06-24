@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.locations {
+  width: 335px;
+  height: 430px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 30px 20px;
+  color: #fff;
+}
+
+.rome {
+  background-image: url('./imagens/rome.png');
+}
+
+.boat {
+  background-image: url('./imagens/boat.png');
+}
+
+.sand {
+  background-image: url('./imagens/sand-and-sea.png');
+}
+
+.starry {
+  background-image: url('./imagens/starry-night.png');
+}
+
+@media (max-width: 1440px) {
+  .container {
+    max-width: 900px;
+  }
+}
